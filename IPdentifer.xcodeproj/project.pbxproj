@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0A7A9902C475CB000327D95 /* IPdentiferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7A98F2C475CB000327D95 /* IPdentiferApp.swift */; };
+		D0A7A9922C475CB000327D95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7A9912C475CB000327D95 /* ContentView.swift */; };
+		D0A7A9942C475CB100327D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A7A9932C475CB100327D95 /* Assets.xcassets */; };
+		D0A7A9972C475CB100327D95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A7A9962C475CB100327D95 /* Preview Assets.xcassets */; };
+		D0A7A9A22C475CB100327D95 /* IPdentiferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7A9A12C475CB100327D95 /* IPdentiferTests.swift */; };
+		D0A7A9AC2C475CB100327D95 /* IPdentiferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7A9AB2C475CB100327D95 /* IPdentiferUITests.swift */; };
+		D0A7A9AE2C475CB100327D95 /* IPdentiferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7A9AD2C475CB100327D95 /* IPdentiferUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0A7A99E2C475CB100327D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A7A9842C475CB000327D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A7A98B2C475CB000327D95;
+			remoteInfo = IPdentifer;
+		};
+		D0A7A9A82C475CB100327D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0A7A9842C475CB000327D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A7A98B2C475CB000327D95;
+			remoteInfo = IPdentifer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0A7A98C2C475CB000327D95 /* IPdentifer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPdentifer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A7A98F2C475CB000327D95 /* IPdentiferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPdentiferApp.swift; sourceTree = "<group>"; };
+		D0A7A9912C475CB000327D95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0A7A9932C475CB100327D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0A7A9962C475CB100327D95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0A7A9982C475CB100327D95 /* IPdentifer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IPdentifer.entitlements; sourceTree = "<group>"; };
+		D0A7A99D2C475CB100327D95 /* IPdentiferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPdentiferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A7A9A12C475CB100327D95 /* IPdentiferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPdentiferTests.swift; sourceTree = "<group>"; };
+		D0A7A9A72C475CB100327D95 /* IPdentiferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPdentiferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A7A9AB2C475CB100327D95 /* IPdentiferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPdentiferUITests.swift; sourceTree = "<group>"; };
+		D0A7A9AD2C475CB100327D95 /* IPdentiferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPdentiferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0A7A9BC2C47609C00327D95 /* IPdentifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IPdentifier.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0A7A9892C475CB000327D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A7A99A2C475CB100327D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A7A9A42C475CB100327D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0A7A9832C475CB000327D95 = {
+			isa = PBXGroup;
+			children = (
+				D0A7A9BC2C47609C00327D95 /* IPdentifier.entitlements */,
+				D0A7A98E2C475CB000327D95 /* IPdentifer */,
+				D0A7A9A02C475CB100327D95 /* IPdentiferTests */,
+				D0A7A9AA2C475CB100327D95 /* IPdentiferUITests */,
+				D0A7A98D2C475CB000327D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A7A98D2C475CB000327D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7A98C2C475CB000327D95 /* IPdentifer.app */,
+				D0A7A99D2C475CB100327D95 /* IPdentiferTests.xctest */,
+				D0A7A9A72C475CB100327D95 /* IPdentiferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0A7A98E2C475CB000327D95 /* IPdentifer */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7A98F2C475CB000327D95 /* IPdentiferApp.swift */,
+				D0A7A9912C475CB000327D95 /* ContentView.swift */,
+				D0A7A9932C475CB100327D95 /* Assets.xcassets */,
+				D0A7A9982C475CB100327D95 /* IPdentifer.entitlements */,
+				D0A7A9952C475CB100327D95 /* Preview Content */,
+			);
+			path = IPdentifer;
+			sourceTree = "<group>";
+		};
+		D0A7A9952C475CB100327D95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7A9962C475CB100327D95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0A7A9A02C475CB100327D95 /* IPdentiferTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7A9A12C475CB100327D95 /* IPdentiferTests.swift */,
+			);
+			path = IPdentiferTests;
+			sourceTree = "<group>";
+		};
+		D0A7A9AA2C475CB100327D95 /* IPdentiferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7A9AB2C475CB100327D95 /* IPdentiferUITests.swift */,
+				D0A7A9AD2C475CB100327D95 /* IPdentiferUITestsLaunchTests.swift */,
+			);
+			path = IPdentiferUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0A7A98B2C475CB000327D95 /* IPdentifer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A7A9B12C475CB100327D95 /* Build configuration list for PBXNativeTarget "IPdentifer" */;
+			buildPhases = (
+				D0A7A9882C475CB000327D95 /* Sources */,
+				D0A7A9892C475CB000327D95 /* Frameworks */,
+				D0A7A98A2C475CB000327D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPdentifer;
+			productName = IPdentifer;
+			productReference = D0A7A98C2C475CB000327D95 /* IPdentifer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0A7A99C2C475CB100327D95 /* IPdentiferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A7A9B42C475CB100327D95 /* Build configuration list for PBXNativeTarget "IPdentiferTests" */;
+			buildPhases = (
+				D0A7A9992C475CB100327D95 /* Sources */,
+				D0A7A99A2C475CB100327D95 /* Frameworks */,
+				D0A7A99B2C475CB100327D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A7A99F2C475CB100327D95 /* PBXTargetDependency */,
+			);
+			name = IPdentiferTests;
+			productName = IPdentiferTests;
+			productReference = D0A7A99D2C475CB100327D95 /* IPdentiferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0A7A9A62C475CB100327D95 /* IPdentiferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A7A9B72C475CB100327D95 /* Build configuration list for PBXNativeTarget "IPdentiferUITests" */;
+			buildPhases = (
+				D0A7A9A32C475CB100327D95 /* Sources */,
+				D0A7A9A42C475CB100327D95 /* Frameworks */,
+				D0A7A9A52C475CB100327D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A7A9A92C475CB100327D95 /* PBXTargetDependency */,
+			);
+			name = IPdentiferUITests;
+			productName = IPdentiferUITests;
+			productReference = D0A7A9A72C475CB100327D95 /* IPdentiferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0A7A9842C475CB000327D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D0A7A98B2C475CB000327D95 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D0A7A99C2C475CB100327D95 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D0A7A98B2C475CB000327D95;
+					};
+					D0A7A9A62C475CB100327D95 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D0A7A98B2C475CB000327D95;
+					};
+				};
+			};
+			buildConfigurationList = D0A7A9872C475CB000327D95 /* Build configuration list for PBXProject "IPdentifer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0A7A9832C475CB000327D95;
+			productRefGroup = D0A7A98D2C475CB000327D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0A7A98B2C475CB000327D95 /* IPdentifer */,
+				D0A7A99C2C475CB100327D95 /* IPdentiferTests */,
+				D0A7A9A62C475CB100327D95 /* IPdentiferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0A7A98A2C475CB000327D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A7A9972C475CB100327D95 /* Preview Assets.xcassets in Resources */,
+				D0A7A9942C475CB100327D95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A7A99B2C475CB100327D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A7A9A52C475CB100327D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0A7A9882C475CB000327D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A7A9922C475CB000327D95 /* ContentView.swift in Sources */,
+				D0A7A9902C475CB000327D95 /* IPdentiferApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A7A9992C475CB100327D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A7A9A22C475CB100327D95 /* IPdentiferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A7A9A32C475CB100327D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A7A9AE2C475CB100327D95 /* IPdentiferUITestsLaunchTests.swift in Sources */,
+				D0A7A9AC2C475CB100327D95 /* IPdentiferUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0A7A99F2C475CB100327D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A7A98B2C475CB000327D95 /* IPdentifer */;
+			targetProxy = D0A7A99E2C475CB100327D95 /* PBXContainerItemProxy */;
+		};
+		D0A7A9A92C475CB100327D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A7A98B2C475CB000327D95 /* IPdentifer */;
+			targetProxy = D0A7A9A82C475CB100327D95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0A7A9AF2C475CB100327D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0A7A9B02C475CB100327D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D0A7A9B22C475CB100327D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IPdentifer/IPdentifer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IPdentifer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbath.IPdentifer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0A7A9B32C475CB100327D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IPdentifer/IPdentifer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IPdentifer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbath.IPdentifer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0A7A9B52C475CB100327D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbath.IPdentiferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPdentifer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IPdentifer";
+			};
+			name = Debug;
+		};
+		D0A7A9B62C475CB100327D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbath.IPdentiferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPdentifer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IPdentifer";
+			};
+			name = Release;
+		};
+		D0A7A9B82C475CB100327D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbath.IPdentiferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IPdentifer;
+			};
+			name = Debug;
+		};
+		D0A7A9B92C475CB100327D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbath.IPdentiferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IPdentifer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0A7A9872C475CB000327D95 /* Build configuration list for PBXProject "IPdentifer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A7A9AF2C475CB100327D95 /* Debug */,
+				D0A7A9B02C475CB100327D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A7A9B12C475CB100327D95 /* Build configuration list for PBXNativeTarget "IPdentifer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A7A9B22C475CB100327D95 /* Debug */,
+				D0A7A9B32C475CB100327D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A7A9B42C475CB100327D95 /* Build configuration list for PBXNativeTarget "IPdentiferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A7A9B52C475CB100327D95 /* Debug */,
+				D0A7A9B62C475CB100327D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A7A9B72C475CB100327D95 /* Build configuration list for PBXNativeTarget "IPdentiferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A7A9B82C475CB100327D95 /* Debug */,
+				D0A7A9B92C475CB100327D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0A7A9842C475CB000327D95 /* Project object */;
+}
