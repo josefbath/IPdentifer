@@ -14,6 +14,7 @@
 		D0A7A9A22C475CB100327D95 /* IPdentiferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7A9A12C475CB100327D95 /* IPdentiferTests.swift */; };
 		D0A7A9AC2C475CB100327D95 /* IPdentiferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7A9AB2C475CB100327D95 /* IPdentiferUITests.swift */; };
 		D0A7A9AE2C475CB100327D95 /* IPdentiferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7A9AD2C475CB100327D95 /* IPdentiferUITestsLaunchTests.swift */; };
+		D0E34F052C49EEC9002BF665 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E34F042C49EEC9002BF665 /* PreferencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		D0A7A9AB2C475CB100327D95 /* IPdentiferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPdentiferUITests.swift; sourceTree = "<group>"; };
 		D0A7A9AD2C475CB100327D95 /* IPdentiferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPdentiferUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D0A7A9BC2C47609C00327D95 /* IPdentifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IPdentifier.entitlements; sourceTree = "<group>"; };
+		D0E34F042C49EEC9002BF665 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D0A7A98E2C475CB000327D95 /* IPdentifer */ = {
 			isa = PBXGroup;
 			children = (
+				D0E34F042C49EEC9002BF665 /* PreferencesView.swift */,
 				D0A7A98F2C475CB000327D95 /* IPdentiferApp.swift */,
 				D0A7A9912C475CB000327D95 /* ContentView.swift */,
 				D0A7A9932C475CB100327D95 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0A7A9922C475CB000327D95 /* ContentView.swift in Sources */,
+				D0E34F052C49EEC9002BF665 /* PreferencesView.swift in Sources */,
 				D0A7A9902C475CB000327D95 /* IPdentiferApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

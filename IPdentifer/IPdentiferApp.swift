@@ -19,6 +19,7 @@ struct swiftui_menu_barApp: App {
                     fetchPublicIPv6Address { ip in
                         self.ipAddress = ip
                     }
+        
                 }
         }
         MenuBarExtra {
@@ -35,7 +36,11 @@ struct swiftui_menu_barApp: App {
         } label: {
             Label(ipAddress, systemImage: "network")
         }
-    }
+        Settings {
+                    PreferencesView()
+                }
+            }
+
 
     func fetchPublicIPv6Address(completion: @escaping (String) -> Void) {
         guard let url = URL(string: "https://api64.ipify.org?format=text") else {
